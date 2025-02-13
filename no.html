@@ -6,23 +6,36 @@
     <title>No Mood</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Circular+Std:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Circular Std', sans-serif;
+        }
         .container {
             text-align: center;
             margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
-        .yes img {
+        .no img {
             display: block;
             margin: 10px auto;
             width: 300px;
             height: auto;
         }
+        .no h2 {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="yes">
-            <h2>sige meow, sasama nalang ako kay princess sa loob ng kahon</h2>
+        <div class="no">
             <img src="No.jpg" alt="No Image">
+            <h2>sige meow, sasama nalang ako kay princess sa loob ng kahon</h2>
         </div>
     </div>
 </body>
